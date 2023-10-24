@@ -12,12 +12,20 @@
 
 .navicon{
     height: 50px;
-    width: 113px;
+    width: 110px;
 }
 
 .logo{
-    background-image: url(Amazonlogo.jpeg);
+    background-image: url(amazon_logo.png);
     height: 50px;
     background-size: cover;
     width: 113px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid green;
 }
